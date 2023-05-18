@@ -71,8 +71,8 @@ public class BassAmpCabinet implements Serializable {
 	@Column(name = "open_closed_back")
 	private String openClosedBack;
 
-	@Column(name = "construction_materials")
-	private String construccionMaterials;
+	@Column(name = "construction_material")
+	private String construccionMaterial;
 
 	private String height;
 
@@ -253,12 +253,12 @@ public class BassAmpCabinet implements Serializable {
 		this.openClosedBack = openClosedBack;
 	}
 
-	public String getConstruccionMaterials() {
-		return construccionMaterials;
+	public String getConstruccionMaterial() {
+		return construccionMaterial;
 	}
 
-	public void setConstruccionMaterials(String construccionMaterials) {
-		this.construccionMaterials = construccionMaterials;
+	public void setConstruccionMaterial(String construccionMaterial) {
+		this.construccionMaterial = construccionMaterial;
 	}
 
 	public String getHeight() {
