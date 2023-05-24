@@ -77,6 +77,10 @@ public class BassAmpHead implements Serializable {
 
 	@Column(name = "manufacturer_part_number")
 	private String manufacturerPartNumber;
+	
+	public BassAmpHead() {
+		super();
+	}
 
 	public int getId() {
 		return id;

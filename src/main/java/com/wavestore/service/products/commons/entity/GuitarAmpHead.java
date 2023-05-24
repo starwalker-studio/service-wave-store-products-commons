@@ -78,6 +78,10 @@ public class GuitarAmpHead implements Serializable {
 
 	@Column(name = "manufacturer_part_number")
 	private String manufacturerPartNumber;
+	
+	public GuitarAmpHead() {
+		super();
+	}
 
 	public int getId() {
 		return id;

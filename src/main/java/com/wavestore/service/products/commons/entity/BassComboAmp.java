@@ -73,7 +73,12 @@ public class BassComboAmp implements Serializable {
 	private String weight;
 
 	@Column(name = "manufacturer_part_number")
-	private String manufacturerPartNumber;
+	private String manufacturerPartNumber;	
+	
+
+	public BassComboAmp() {
+		super();
+	}	
 
 	public int getId() {
 		return id;

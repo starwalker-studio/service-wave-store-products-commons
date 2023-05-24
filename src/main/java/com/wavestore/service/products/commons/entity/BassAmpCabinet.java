@@ -19,7 +19,7 @@ public class BassAmpCabinet implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_bass_amp_cabinet", unique = true, nullable = false)
 	private int id;
-
+	
 	private int brand;
 
 	private String model;
@@ -83,7 +83,11 @@ public class BassAmpCabinet implements Serializable {
 	private String weight;
 
 	@Column(name = "manufacturer_part_number")
-	private String manufacturerPartNumber;
+	private String manufacturerPartNumber;	
+
+	public BassAmpCabinet() {
+		super();
+	}
 
 	public int getId() {
 		return id;

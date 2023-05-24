@@ -70,6 +70,10 @@ public class GuitarAmpCabinet implements Serializable {
 
 	@Column(name = "manufacturer_part_number")
 	private String manufacturerPartNumber;
+	
+	public GuitarAmpCabinet() {
+		super();
+	}
 
 	public int getId() {
 		return id;
